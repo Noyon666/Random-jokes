@@ -1,0 +1,27 @@
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #bbdefb);
+}
+
+.card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.joke {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+footer {
+  text-align: center;
+}
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
